@@ -298,3 +298,25 @@
 .loadingElement {height: 100%;}
 .mapElement {height: 100%;}
 .containerElement {height: 66vw;  max-height: calc(90vh + 10px); width: 100%;}
+
+@media only screen and (min-width: 800px) {
+    .score {font-size: 30vh;}
+    .mapAndHospitalsDiv {
+        height: 96vh;
+        flex-direction: row;
+    }
+    .mapDiv {
+        flex: 2;
+        height: 96vh!important;
+    }
+    .mapElement {height: 96vh!important;}
+    .containerElement {height: 96vh!important; width: 100%;}
+    .outerHospitalsContainer {
+        height: 100%;
+        flex: 1;
+    }
+    .active > .submitButton {
+        height: 10vh!important;
+        width: 10vh!important;
+    }
+}
